@@ -29,10 +29,8 @@ public class table{
       for(int j=0; j<m;j++){
         for(int i=0; i<n;i++){
           c=c+a[i][j];
-          System.out.println(a[i][j]+""+i+""+j);
         }
         a[n][j]=c;
-        System.out.println(a[n][j]);
         c=0;
       }
       
