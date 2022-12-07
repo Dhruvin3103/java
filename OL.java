@@ -2,12 +2,12 @@ import java.util.*;
 
 class Overload
 {
-    void sqaure(float s)
+    void area(float s)
     {
         System.out.println("Area of square is : "+s*s);
     }
 
-    void rec(float l, float b)
+    void area(float l, float b)
     {
         System.out.println("Area of rec is : "+l*b);
     }
@@ -26,14 +26,14 @@ public class OL
             case 1:
             System.out.print("Enter the sides : ");
             float s = sc.nextFloat();
-                o.sqaure(s);
+                o.area(s);
                 break;
             
             case 2:
                 System.out.print("Enter the sides : ");
                 float u = sc.nextFloat();
                 float v= sc.nextFloat();
-                    o.rec(u,v);
+                    o.area(u,v);
                     break;
         
             default:
