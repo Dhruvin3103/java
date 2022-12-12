@@ -18,16 +18,25 @@ class Vector1
         // }
         // // v.remove(4);
         System.out.println(v);
-        while(c<5)
+        while(c<6)
         {
             System.out.println(v.size());
+            System.out.println("choice : ");
             c = sc.nextInt();
             switch(c){
-            case 1 : v.add(sc.nextInt());break;
-            case 2 : v.remove((sc.nextInt())-1);break;
-            case 3 : System.out.print(v);break;
-            case 4 : System.out.println("find"+v.get(sc.nextInt()));break;
+            case 1 : System.out.print("add : ");v.add(sc.nextInt());break;
+            case 2 : System.out.print("remove : ");v.remove((sc.nextInt())-1);break;
+            case 3 : System.out.print("displaying : ");System.out.print(v);break;
+            case 4 : System.out.print("get : ");System.out.println("find"+v.get(sc.nextInt()));break;
+            case 5 :
+            {
+                System.out.println("frequncy Of : ");
+                int k=sc.nextInt(),j=0;
+                for(int i =0;i<v.size();i++)
+                {if(v.get(i)==k)j++;}
+                System.out.println("Freq : "+j);
             }
+        }
         }
     }
 }
