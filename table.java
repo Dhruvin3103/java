@@ -13,6 +13,7 @@ public class table{
         for(int j=0; j<m;j++){
           System.out.print("Enter the marks of sub "+(j+1)+":");
           a[i][j]= sc.nextInt();
+          
         }
       }
       // 

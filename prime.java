@@ -9,7 +9,7 @@ public class prime
        Scanner sc = new Scanner(System.in);
        System.out.print("enter a number : ");
        int n = sc.nextInt();
-       System.out.print("prime numbers are ");
+       System.out.print("prime numbers :");
        for (i = 1; i <= n; i++)         
        { 		  	  
           int counter=0; 	  
@@ -27,7 +27,9 @@ public class prime
 	  }	
       
        }
-       System.out.println("\nOdd numbers :");
+
+      
+      System.out.print("\nOdd numbers :");
       for (i = 1; i <= n; i++){
         if(i%2!=0)
         {System.out.print(i+" ");}

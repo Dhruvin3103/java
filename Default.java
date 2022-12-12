@@ -1,5 +1,5 @@
 class Default {
-    public static int i;
+    static int i;
     public static double d;
     public static short s;
     public static long l;
